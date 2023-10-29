@@ -139,3 +139,16 @@ Use When: Cross-language communication, optimized data transfer.
 Definition: Load balancing distributes incoming network traffic across multiple servers or services.
 
 Importance: Ensures no single service is overwhelmed, maintaining stability and performance. Prevents overload and improves reliability.
+
+# API Gateway
+* The API Gateway serves as the single entry point for all client requests, managing and routing them to the appropriate microservices.
+# Config Server
+* The Config Server centralizes configuration management for all microservices, simplifying application maintenance and consistency across environments.
+# Discovery Server
+* The Discovery Server provides service registration and discovery, enabling seamless service-to-service communication within the microservices ecosystem.
+# Using OpenFeign - Inter-Service Communication
+* This project demonstrates inter-service communication using OpenFeign, a declarative REST client that simplifies service-to-service communication within the microservices ecosystem.
+# Distributed Tracing - Using Zipkin
+* The project showcases the use of Zipkin for distributed tracing, enhancing application observability and enabling the visualization and troubleshooting of latency issues.
+# Sybcronous Communication and A Syncronous Communication
+![image](https://github.com/TrickAndTrack/microservice/assets/73180409/c05839bc-5183-4edb-9afe-31de02ee457a)
